@@ -1,0 +1,7 @@
+## IDE files
+.idea
+
+## vi(m)-style temp files
+.sw?
+.*.sw?
+
