@@ -5,20 +5,42 @@
 
 ## The gist
 
-This is our simple, one-pager site for the event.  Over time it may grow
-into the main site (complete with talk titles, speaker bios, and all that)
-_or_ we might completely replace it.  We'll figure that out as we go along.
+This is our site for the event.  It started as a simple one-pager with
+a splash of Tailwind.  Now that we need multiple pages and some automation,
+it uses the Eleventy.
 
 
 ## Setup/maintenance
 
-For now this site is a single HTML file, with a supporting stylesheet (CSS)
-and image.  And the page layout is based on a Tailwind Plus template.
-
-That CSS file is _generated,_ however, by Tailwind.  Full details are in the
-[docs]( https://tailwindcss.com/ )
-but the gist is that Tailwind is a preprocessor that looks over the HTML file
+[Tailwind]( https://tailwindcss.com/ )
+generates the site's CSS. It's a preprocessor that looks over the HTML file
 to determine what CSS classes to include in the generated artifact.
+
+[Eleventy]( https://www.11ty.dev/ )
+is a static site generator.  Even though we only have a handful of pages,
+a site generator keeps things consistent and makes it easy to propagate
+changes.
+
+You'll need both Tailwind and Eleventy to update the site. To install these
+tools:
+
+```
+umask 022
+cd public
+npm init -y
+
+npm install @11ty/eleventy@3.1.2
+
+npm install tailwindcss@4.1.12
+npm install @tailwindcss/cli@4.1.12
+
+
+## Confirm that everything is installed:
+npm ls
+```
+
+
+### Building/updating the site
 
 If you change any classes in the HTML, then, be sure to rerun Tailwind.
 
@@ -27,13 +49,19 @@ For those using
 that boils down to:
 
 ```
-tailwindcss -i src/input.css -o public/css/main.css
+tailwindcss -i src/input.css -o public/generated/css/main.css
 ```
 
-That's about it.
+Having updated the Tailwind-generated CSS, you can run Eleventy to (re)build
+the site:
 
-(If we move to a multipage site and use a static site generator, these
-instructions will certainly change.)
+```
+npx @11ty/eleventy  --serve
+```
+
+You can now point your browser to 
+[localhost:8080]( http://localhost:8080 )
+to inspect the site.
 
 
 ## Image credits
