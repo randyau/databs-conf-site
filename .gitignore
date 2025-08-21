@@ -5,3 +5,6 @@
 .sw?
 .*.sw?
 
+## node JS
+node_modules/
+
