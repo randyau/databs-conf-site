@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@layer base {
+	p {
+		margin: revert ;
+		padding: revert ;
+		color: var(--color-gray-600) ;
+		margin-top: 1.5rem ;
+	}
+
+	div {
+		color: var(--color-gray-600) ;
+	}
+
+
+	a {
+		/* color: var(--color-indigo-600) ; */
+		color: #366560 ;
+		/* color: #e0feca ; */
+		font-weight: bold ;
+
+	}
+	a:hover {
+		color: var(--color-gray-500) ;
+	}
+
+}
