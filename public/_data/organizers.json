@@ -1,0 +1,57 @@
+[
+	{
+		"name" : "Randy Au" ,
+		"title" : "Ubiquitous MC" ,
+		"bio" : "Randy is technically a Quantitative UX Researcher, generalist data nerd, terminally online hobby collector, and steady newsletter writer. He also organized this conference entirely because it sounded like a good idea at the time. What is sleep." ,
+		"image" : "randy_au.png",
+		"links" : [
+			{
+				"name" : "Bluesky" ,
+				"target" : "https://bsky.app/profile/randyau.com"
+			},
+			{
+				"name" : "Newsletter" ,
+				"target" : "https://www.counting-stuff.com"
+			}
+		]
+	} ,
+
+	{
+		"name" : "Amanda Alvarez (She/Her)" ,
+		"title" : "",
+		"bio" : "Amanda is a general data nerd who has addressed challenges across an eclectic set of domains over a 20+ year career, bringing her technical expertise to both the private sector and public interest initiatives. Her work has informed policy decisions, supported advocacy efforts, advanced scientific research, and created solutions that improve outcomes across commercial, educational, and civic spaces.\nWhen she's not hacking through data stuff, Amanda can be found fussing over her bees, eating tacos, adding to her collection of hobbies, and adventuring with her family in the mountains of Colorado.\n" ,
+		"image" : "amanda_alvarez.png",
+		"links" : [
+			{
+				"name" : "Bluesky" ,
+				"target" : "https://bsky.app/profile/gecky.me"
+			},
+			{
+				"name" : "Website" ,
+				"target" : "http://gecky.me"
+			}
+		]
+
+	} ,
+
+	{
+		"name" : "Q McCallum" ,
+		"bio" : "<p>\n<a href=\"https://qethanm.cc/\">Q McCallum</a> is a consultant, writer, and researcher. He's spent his career applying emerging and disruptive technology to business use cases. His <a href=\"https://qethanm.cc/consulting/\">consulting practice</a> focuses on matters of strategy and risk management in machine learning and artificial intelligence\n</p>\n<p>\nQ's written work includes <em><a href=\"https://readblackboxtactics.com/\">Black Box Tactics</a>: Use algorithmic trading techniques to improve your AI;</em> <em>Understanding Patterns of Disruption: Lessons Learned from the Cloud, Machine Learning, and More</em>; <em>Business Models for the Data Economy; Parallel R: Data Analysis in the Distributed World;</em> and <em>Bad Data Handbook: Mapping the World of Data Problems</em>. He has been featured on <a href=\"https://www.oreilly.com/people/q-mccallum-2/\">O'Reilly Radar</a> and publishes the <em><a href=\"https://complex-machinery.com/\">Complex Machinery</a></em> newsletter on the intersection of AI and risk.\n</p>" ,
+		"image" : "q_mccallum.png",
+		"links" : [
+			{
+				"name" : "Bluesky" ,
+				"target" : "https://bsky.app/profile/qethanm.bsky.social"
+			},
+			{
+				"name" : "Newsletter" ,
+				"target" : "https://complex-machinery.com/"
+			},
+			{
+				"name" : "LinkedIn" ,
+				"target" : "#"
+			}
+		]
+
+	}
+]
