@@ -1,0 +1,45 @@
+---
+layout: regular_page
+pagination:
+  data: speakers
+  size: 1
+  alias: talk_meta
+permalink: "talks/{{ talk_meta.speaker.name | slugify }}/"
+eleventyComputed:
+  title: "{{ talk_meta.talk.title | strip_html }}"
+
+---
+
+<p class="mt-2 font-bold text-lg">{{ talk_meta.speaker.name }}</p>
+
+
+<div class="mt-8">
+
+	<p>
+		{{ talk_meta.talk.abstract }}
+	</p>
+
+	<p class="text-center">
+		<i class="fa-solid fa-ellipsis"></i>
+	</p>
+
+	{% if talk_meta.speaker.image %}
+		<img
+				src="/images/speakers/{{ talk_meta.speaker.image }}"
+				alt="avatar for {{ talk_meta.speaker.name }}"
+				class="float-left mr-4 mb-4 sm:aspect-video rounded-xl bg-gray-50 object-cover size-32 md:size-52"
+		/>
+	{% endif %}
+
+
+	{{ talk_meta.speaker.bio }}
+
+	<p class="text-center text-lg/8">
+		{% for link_record in talk_meta.speaker.links %}
+			<a href="{{ link_record.url }}">{{ link_record.name }}</a>
+			{% if not forloop.last %}
+				|
+			{% endif %}
+		{% endfor %}
+	</p>
+</div>

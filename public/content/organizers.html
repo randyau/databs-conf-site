@@ -1,0 +1,43 @@
+---
+layout: regular_page
+title: "Organizers"
+---
+
+<p class="mt-6 text-lg/8 text-gray-600">
+	The people behind the scenes of Data Behind the Scenes.
+</p>
+
+
+<div class="mx-auto mt-8 gap-20 px-6 lg:px-8">
+	<ul class="divide-y divide-gray-200 xl:col-span-3" role="list">
+
+		{% for organizer_record in organizers %}
+		<li class="flex flex-col gap-10 py-12 first:pt-0 last:pb-0 sm:flex-row">
+			<img alt="{{ organizer_record.name }} avatar" class="aspect-4/5 size-40 flex-none rounded-2xl object-cover outline-1 -outline-offset-1 outline-black/5" src="/images/organizers/{{ organizer_record.image }}"/>
+			<div class="max-w-4xl flex-auto">
+				<h3 class="text-lg/8 font-semibold tracking-tight text-gray-900">{{ organizer_record.name }}</h3>
+				<p class="text-base/7">
+					{{ organizer_record.bio }}
+				</p>
+				<ul class="mt-6 flex gap-x-6" role="list">
+					{% for link_record in organizer_record.links %}
+					<li>
+						<a href="{{ link_record.target }}">
+							{{ link_record.name }}
+							{% comment %}
+							<span class="sr-only">{{ link_record.name }}</span>
+							<svg aria-hidden="true" class="size-5" fill="currentColor" viewBox="0 0 20 20">
+								<path d="M11.4678 8.77491L17.2961 2H15.915L10.8543 7.88256L6.81232 2H2.15039L8.26263 10.8955L2.15039 18H3.53159L8.87581 11.7878L13.1444 18H17.8063L11.4675 8.77491H11.4678ZM9.57608 10.9738L8.95678 10.0881L4.02925 3.03974H6.15068L10.1273 8.72795L10.7466 9.61374L15.9156 17.0075H13.7942L9.57608 10.9742V10.9738Z"/>
+							</svg>
+							{% endcomment %}
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</li>
+
+
+		{% endfor %}
+	</ul>
+</div>
