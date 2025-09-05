@@ -1,0 +1,6 @@
+# send all 404 errors right back to the homepage
+ErrorDocument 404  /
+
+
+# disable directory listings
+Options -Indexes
