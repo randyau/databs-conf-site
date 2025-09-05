@@ -10,7 +10,7 @@
 		"speaker" : {
 			"name" : "Q McCallum" ,
 			"title" : "Consultant: AI Strategy and Risk" ,
-			"bio" : "<p>\n<a href=\"https://qethanm.cc/\">Q McCallum</a> is a consultant, writer, and researcher. He's spent his career applying emerging and disruptive technology to business use cases. His <a href=\"https://qethanm.cc/consulting/\">consulting practice</a> focuses on matters of strategy and risk management in machine learning and artificial intelligence\n</p>\n<p>\nQ's written work includes <em><a href=\"https://readblackboxtactics.com/\">Black Box Tactics</a>: Use algorithmic trading techniques to improve your AI;</em> <em>Understanding Patterns of Disruption: Lessons Learned from the Cloud, Machine Learning, and More</em>; <em>Business Models for the Data Economy; Parallel R: Data Analysis in the Distributed World;</em> and <em>Bad Data Handbook: Mapping the World of Data Problems</em>. He has been featured on <a href=\"https://www.oreilly.com/people/q-mccallum-2/\">O'Reilly Radar</a> and publishes the <em><a href=\"https://complex-machinery.com/\">Complex Machinery</a></em> newsletter on the intersection of AI and risk.\n</p>" ,
+			"bio" : "<p><a href=\"https://qethanm.cc/\">Q McCallum</a> is a consultant, writer, and researcher. He's spent his career applying emerging and disruptive technology to business use cases. His <a href=\"https://qethanm.cc/consulting/\">consulting practice</a> focuses on matters of strategy and risk management in machine learning and artificial intelligence</p>\n<p>Q's written work includes <em><a href=\"https://readblackboxtactics.com/\">Black Box Tactics</a>: Use algorithmic trading techniques to improve your AI;</em> <em>Understanding Patterns of Disruption: Lessons Learned from the Cloud, Machine Learning, and More</em>; <em>Business Models for the Data Economy; Parallel R: Data Analysis in the Distributed World;</em> and <em>Bad Data Handbook: Mapping the World of Data Problems</em>. He has been featured on <a href=\"https://www.oreilly.com/people/q-mccallum-2/\">O'Reilly Radar</a> and publishes the <em><a href=\"https://complex-machinery.com/\">Complex Machinery</a></em> newsletter on the intersection of AI and risk.</p>" ,
 			"image" : "q_mccallum.png" ,
 			"links" : [
 				{
@@ -67,7 +67,7 @@
 		"speaker" : {
 			"name" : "Ramona Daniel (She/Her)" ,
 			"title" : "" ,
-			"bio" : "<p>Ramona Daniel is a cultural insights and research strategy consultant with 25+ years’ experience at leading global agencies including Ipsos, Kantar, and across the WPP network. She now works independently, helping organisations tackle complex multi-market research, decode cultural shifts through both quantitative methods and semiotics, and make sense of messy, cross-border data.</p><p>Her work bridges strategic thinking with hands-on delivery: from designing robust research programmes to turning data into compelling cultural narratives. She also equips teams to sharpen their skills in survey design, data analysis, storytelling, and the effective use of AI-driven tools.</p><p>She is available for freelance projects, advisory roles, in-company training, and interim insight leadership.</p>>" ,
+			"bio" : "<p>Ramona Daniel is a cultural insights and research strategy consultant with 25+ years’ experience at leading global agencies including Ipsos, Kantar, and across the WPP network. She now works independently, helping organisations tackle complex multi-market research, decode cultural shifts through both quantitative methods and semiotics, and make sense of messy, cross-border data.</p><p>Her work bridges strategic thinking with hands-on delivery: from designing robust research programmes to turning data into compelling cultural narratives. She also equips teams to sharpen their skills in survey design, data analysis, storytelling, and the effective use of AI-driven tools.</p><p>She is available for freelance projects, advisory roles, in-company training, and interim insight leadership.</p>" ,
 			"image" : "ramona_daniel.jpg" ,
 			"links" : [
 
@@ -150,7 +150,7 @@
 		"speaker" : {
 			"name" : "Matthew Brandt aka mattytwoshoes" ,
 			"title" : "" ,
-			"bio" : "Matthew, a seasoned professional with over a decade of experience across 50+ companies, specialises in tracking, analytics, data stacks, and data analysis. Currently at Well, a Swiss Digital Health Platform, he focuses on smart decision-making, measuring outcomes and operationalising data. Matthew, aka the \"Decision Engineer\", excels in engaging stakeholders, drafting technical specifications, and collaborating with others to create insightful data products and reports. He's also a dedicated content creator, sharing his expertise through Twitch livestreams, webinars, events, and YouTube videos. Looking to break free from the dreaded question-answer analyst cycle? Join one of his upcoming live-learn cohorts for a powerful, hands-on, fun learning experience in a group: <a href=\"https://maven.com/mattytwoshoes/decision-science\">https://maven.com/mattytwoshoes/decision-science</a>" ,
+			"bio" : "<p>Matthew, a seasoned professional with over a decade of experience across 50+ companies, specialises in tracking, analytics, data stacks, and data analysis. Currently at Well, a Swiss Digital Health Platform, he focuses on smart decision-making, measuring outcomes and operationalising data. Matthew, aka the \"Decision Engineer\", excels in engaging stakeholders, drafting technical specifications, and collaborating with others to create insightful data products and reports. He's also a dedicated content creator, sharing his expertise through Twitch livestreams, webinars, events, and YouTube videos. Looking to break free from the dreaded question-answer analyst cycle? Join one of his upcoming live-learn cohorts for a powerful, hands-on, fun learning experience in a group: <a href=\"https://maven.com/mattytwoshoes/decision-science\">https://maven.com/mattytwoshoes/decision-science</a></p>" ,
 			"image" : "matthew_brandt.jpg" ,
 			"links" : [
 				{
@@ -198,7 +198,7 @@
 		"speaker" : {
 			"name" : "Prasanta Kumar Dutta (he/him)" ,
 			"title" : "" ,
-			"bio" : "Prasanta Kumar Dutta is an Information Experience Designer from India, working at the intersection of design, coding, and journalism at Reuters. With a background in engineering and design, he crafts data-driven pieces that help narrate important stories visually. Several of his works have been recognised with numerous awards. He also teaches and talks about data visualisation, narrative cartography, and design at eminent institutes across India." ,
+			"bio" : "<p>Prasanta Kumar Dutta is an Information Experience Designer from India, working at the intersection of design, coding, and journalism at Reuters. With a background in engineering and design, he crafts data-driven pieces that help narrate important stories visually. Several of his works have been recognised with numerous awards. He also teaches and talks about data visualisation, narrative cartography, and design at eminent institutes across India.</p>" ,
 			"image" : "prasanta_kumar_dutta.jpg" ,
 			"links" : [
 				{
@@ -220,7 +220,7 @@
 		"speaker" : {
 			"name" : "Caleb Bowie (He/Him)" ,
 			"title" : "" ,
-			"bio" : "Caleb Bowie is a Data Analyst at Hex! He takes pride in translating complex business context and bottlenecks into clear, actionable insights. With expertise in go-to-market analytics, Caleb helps stakeholders understand and feel confident about their strategic decisions." ,
+			"bio" : "<p>Caleb Bowie is a Data Analyst at Hex! He takes pride in translating complex business context and bottlenecks into clear, actionable insights. With expertise in go-to-market analytics, Caleb helps stakeholders understand and feel confident about their strategic decisions.</p>" ,
 
 			"links" : [
 				{
@@ -242,7 +242,7 @@
 		"speaker" : {
 			"name" : "David Asboth (He/Him)" ,
 			"title" : "" ,
-			"bio" : "David is a \"data generalist\"; currently a freelance data trainer and educational consultant, with an MSc. in Data Science and a background in software and web development. He co-hosts the Half Stack Data Science podcast about data science in the real world and is the author of The Well-Grounded Data Analyst (Manning, 2025) - a book of true-to-life data projects to help aspiring analysts practise the skills they actually need in their jobs." ,
+			"bio" : "<p>David is a \"data generalist\"; currently a freelance data trainer and educational consultant, with an MSc. in Data Science and a background in software and web development. He co-hosts the Half Stack Data Science podcast about data science in the real world and is the author of The Well-Grounded Data Analyst (Manning, 2025) - a book of true-to-life data projects to help aspiring analysts practise the skills they actually need in their jobs.</p>" ,
 			"image" : "david_asboth.jpg" ,
 			"links" : [
 				{
@@ -272,7 +272,7 @@
 		"speaker" : {
 			"name" : "Amanda Alvarez (She/Her)" ,
 			"title" : "" ,
-			"bio" : "Amanda is a general data nerd who has addressed challenges across an eclectic set of domains over a 20+ year career, bringing her technical expertise to both the private sector and public interest initiatives. Her work has informed policy decisions, supported advocacy efforts, advanced scientific research, and created solutions that improve outcomes across commercial, educational, and civic spaces.\nWhen she's not hacking through data stuff, Amanda can be found fussing over her bees, eating tacos, adding to her collection of hobbies, and adventuring with her family in the mountains of Colorado." ,
+			"bio" : "<p>Amanda is a general data nerd who has addressed challenges across an eclectic set of domains over a 20+ year career, bringing her technical expertise to both the private sector and public interest initiatives. Her work has informed policy decisions, supported advocacy efforts, advanced scientific research, and created solutions that improve outcomes across commercial, educational, and civic spaces.</p><p>When she's not hacking through data stuff, Amanda can be found fussing over her bees, eating tacos, adding to her collection of hobbies, and adventuring with her family in the mountains of Colorado.</p>" ,
 			"image" : "amanda_alvarez.png" ,
 			"links" : [
 				{
