@@ -308,7 +308,24 @@
 			]
 		}
 
-	}
+	} ,
 
+	{
+		"talk" : {
+			"time" : "TBD ET" ,
+			"title" : "How I Made dbt Builds 6x Faster (Then Rolled It Back)" ,
+			"abstract" : "When I joined my current team, dbt builds took two hours. That was a painful bottleneck for CI and deploys. I built a sampling framework that preserved referential integrity and cut builds down to minutes. It worked until it didn't. This talk is about that win, the weird failure cases that followed, and the eventual choice to roll it all back. A story of engineering tradeoffs, team confusion, and learning when to walk away from a \"good\" idea."
+		} ,
+
+		"speaker" : {
+			"name" : "Paul Rosenzweig (He/Him)" ,
+			"title" : "" ,
+			"bio" : "" ,
+			"image" : "paul_rosenzweig.jpg" ,
+			"links" : [
+			]
+		}
+
+	}
 
 ]
