@@ -1,8 +1,170 @@
 [
 
 	{
+		"activity_type" : "remarks" ,
 		"talk" : {
-			"time" : "TBD ET" ,
+			"time" : "10:00 ET" ,
+			"title" : "Event opens"
+		} ,
+		"speaker" : {
+			"name" : "mc-event-opens"
+		}
+	} ,
+
+	{
+		"activity_type" : "remarks" ,
+		"talk" : {
+			"time" : "10:10 ET" ,
+			"title" : "Opening Remarks"
+		} ,
+		"speaker" : {
+			"name" : "mc-opening-remarks"
+		}
+	} ,
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "10:20 ET" ,
+			"title" : "Tailoring satellite images" ,
+			"abstract" : "What will you do when you find a satellite image broken down into a collage of PNGs? You should become a tailor and stitch these images together. Then you should become a cartographer and georeference this stitched image on the map. That is what I did in a project where we got access to 13,680 PNG images. Bonus—these images had watermarks as well, which I had to remove without destroying the information in the image. This cleaning work helped me learn a lot about image processing and GIS. I'm eager to share my learnings!"
+		} ,
+
+		"speaker" : {
+			"name" : "Krishna ( thechaoticneuron ) (He/Him)" ,
+			"title" : "" ,
+			"bio" : "" ,
+			"image" : "krishna.jpg" ,
+			"links" : [
+				{
+					"name" : "Website" ,
+					"url" : "https://d-saikrishna.github.io/"
+				} ,
+				{
+					"name" : "LinkedIn" ,
+					"url" : "https://www.linkedin.com/in/saikrishnadammalapati/"
+				}
+			]
+		}
+
+	},
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "10:45 ET" ,
+			"title" : "Churn Prediction: We thought it was hard but it was easy" ,
+			"abstract" : "Back in 2017, it was great to work on a project for a B2B SaaS company, trying to predict customer churn - the holy grail of all problems! The goal was to save the company a huge amount of money by stopping customers from cancelling, using machine learning to identify the customers to reach out to. After 6 months of in-the-weeds data work, the solution ended up being something we built in less than 60 minutes..."
+		} ,
+
+		"speaker" : {
+			"name" : "Matthew Brandt aka mattytwoshoes" ,
+			"title" : "" ,
+			"bio" : "<p>Matthew, a seasoned professional with over a decade of experience across 50+ companies, specialises in tracking, analytics, data stacks, and data analysis. Currently at Well, a Swiss Digital Health Platform, he focuses on smart decision-making, measuring outcomes and operationalising data. Matthew, aka the \"Decision Engineer\", excels in engaging stakeholders, drafting technical specifications, and collaborating with others to create insightful data products and reports. He's also a dedicated content creator, sharing his expertise through Twitch livestreams, webinars, events, and YouTube videos. Looking to break free from the dreaded question-answer analyst cycle? Join one of his upcoming live-learn cohorts for a powerful, hands-on, fun learning experience in a group: <a href=\"https://maven.com/mattytwoshoes/decision-science\">https://maven.com/mattytwoshoes/decision-science</a></p>" ,
+			"image" : "matthew_brandt.jpg" ,
+			"links" : [
+				{
+					"name" : "Website" ,
+					"url" : "https://mattytwo.shoes/"
+				}
+			]
+		}
+
+	},
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "11:10 ET" ,
+			"title" : "10 Red Flags That Tell You Your Multi-Market Research Data Went Sideways (And You're Only Finding Out Now)" ,
+			"abstract" : "We've all been there. Staring at survey data that looks technically correct but feels fundamentally wrong. This is the session for people who've ever had to explain why the data from three countries is completely unusable, and you're only figuring this out now. This isn't about pointing fingers; it's about recognising that multi-market research is inherently messy, and sometimes the most valuable skill is knowing how to avoid all the pitfalls."
+		} ,
+
+		"speaker" : {
+			"name" : "Ramona Daniel (She/Her)" ,
+			"title" : "" ,
+			"bio" : "<p>Ramona Daniel is a cultural insights and research strategy consultant with 25+ years’ experience at leading global agencies including Ipsos, Kantar, and across the WPP network. She now works independently, helping organisations tackle complex multi-market research, decode cultural shifts through both quantitative methods and semiotics, and make sense of messy, cross-border data.</p><p>Her work bridges strategic thinking with hands-on delivery: from designing robust research programmes to turning data into compelling cultural narratives. She also equips teams to sharpen their skills in survey design, data analysis, storytelling, and the effective use of AI-driven tools.</p><p>She is available for freelance projects, advisory roles, in-company training, and interim insight leadership.</p>" ,
+			"image" : "ramona_daniel.jpg" ,
+			"links" : [
+
+				{
+					"name" : "Website" ,
+					"url" : "www.23insights.co.uk"
+				} ,
+				{
+					"name" : "Linkedin" ,
+					"url" : "https://www.linkedin.com/in/ramonadaniel/"
+				}
+			]
+		}
+
+	},
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "11:35 ET" ,
+			"title" : "From Chaos to Clarity: Data Journalism in the COVID era" ,
+			"abstract" : "When the pandemic hit, the demand for trustworthy, timely data skyrocketed, but the data itself was often inaccessible, inconsistent, and buried deep inside government dashboards. As a graphics journalist at Reuters, I found myself doing more than just making charts – we were scraping, stitching, cleaning, and sometimes manually copying data, just to get to a starting point. I’ll share the behind-the-scenes process of building some of the most-referenced COVID-19 trackers and data stories at Reuters, how we dealt with broken sources, shifting formats, massive datasets, and the surprising power of duct-tape workflows."
+		} ,
+
+		"speaker" : {
+			"name" : "Prasanta Kumar Dutta (he/him)" ,
+			"title" : "" ,
+			"bio" : "<p>Prasanta Kumar Dutta is an Information Experience Designer from India, working at the intersection of design, coding, and journalism at Reuters. With a background in engineering and design, he crafts data-driven pieces that help narrate important stories visually. Several of his works have been recognised with numerous awards. He also teaches and talks about data visualisation, narrative cartography, and design at eminent institutes across India.</p>" ,
+			"image" : "prasanta_kumar_dutta.jpg" ,
+			"links" : [
+				{
+					"name" : "Website" ,
+					"url" : "https://bit.ly/m/pkddapacific"
+				}
+			]
+		}
+
+	},
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "12:00 ET" ,
+			"title" : "How I Made dbt Builds 6x Faster (Then Rolled It Back)" ,
+			"abstract" : "When I joined my current team, dbt builds took two hours. That was a painful bottleneck for CI and deploys. I built a sampling framework that preserved referential integrity and cut builds down to minutes. It worked until it didn't. This talk is about that win, the weird failure cases that followed, and the eventual choice to roll it all back. A story of engineering tradeoffs, team confusion, and learning when to walk away from a \"good\" idea."
+		} ,
+
+		"speaker" : {
+			"name" : "Paul Rosenzweig (He/Him)" ,
+			"title" : "" ,
+			"bio" : "" ,
+			"image" : "paul_rosenzweig.jpg" ,
+			"links" : [
+			]
+		}
+
+	} ,
+
+
+
+	{
+		"activity_type" : "break" ,
+		"talk" : {
+			"time" : "12:25 ET" ,
+			"title" : "(break)"
+		} ,
+		"speaker" : {
+			"name" : "first break"
+		}
+	} ,
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "13:05 ET" ,
 			"title" : "(Not Quite) Instant Awesomeness: corporate genAI adoption gone wrong, and how to put it back on-track" ,
 			"abstract" : "Executives often see genAI as an instant awesome switch for their company.  Their desire to use this technology overshoots its capabilities, leading to stalled projects and high-profile mishaps.  Why does this keep happening?  Why don't the execs see the danger signs? And what can you, the data practitioner, do about it? Using real-world genAI goofs, I'll share how to guide your stakeholders to better decisions and more successful rollouts.  Who knows? You might talk them out of using AI altogether."
 		} ,
@@ -34,59 +196,43 @@
 
 	},
 
+
 	{
+		"activity_type" : "talk" ,
+
 		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "Lunchtime project to cabinet briefing" ,
-			"abstract" : "The acute covid response had lots of novel, rapidly changing data. My personal lunchtime and evenings project summarising NZ’s data had a weirdly high national profile. I have thoughts about why, and how to sustainably contributing usefully in times of crisis."
+			"time" : "13:30 ET" ,
+			"title" : "There Are No Data Emergencies*" ,
+			"abstract" : "There are no data emergencies — except sometimes there are, and it's necessary to embrace the chaos. Responding to quickly shifting external signals requires a different mindset and bag of tricks than careful, intentional execution of a carefully, intentionally outlined technical roadmap. Tales of hacking through the uncertainty, rapid prototyping, and rapid abandonment."
 		} ,
 
 		"speaker" : {
-			"name" : "David Hood (He/Him)" ,
+			"name" : "Amanda Alvarez (She/Her)" ,
 			"title" : "" ,
-			"bio" : "David Hood is often described as a New Zealand data analyst in media stories, but among data folk he would call himself a data generalist that spends a lot of his time teaching university staff and students software and workflows, along with having an unrelated profile as an advocate of open public data for informed citizenry." ,
-			"image" : "david_hood.png" ,
+			"bio" : "<p>Amanda is a general data nerd who has addressed challenges across an eclectic set of domains over a 20+ year career, bringing her technical expertise to both the private sector and public interest initiatives. Her work has informed policy decisions, supported advocacy efforts, advanced scientific research, and created solutions that improve outcomes across commercial, educational, and civic spaces.</p><p>When she's not hacking through data stuff, Amanda can be found fussing over her bees, eating tacos, adding to her collection of hobbies, and adventuring with her family in the mountains of Colorado.</p>" ,
+			"image" : "amanda_alvarez.png" ,
 			"links" : [
 				{
 					"name" : "Bluesky" ,
-					"url" : "https://bsky.app/profile/thoughtfulnz.bsky.social"
-				}
-			]
-		}
-
-	},
-
-
-	{
-		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "10 Red Flags That Tell You Your Multi-Market Research Data Went Sideways (And You're Only Finding Out Now)" ,
-			"abstract" : "We've all been there. Staring at survey data that looks technically correct but feels fundamentally wrong. This is the session for people who've ever had to explain why the data from three countries is completely unusable, and you're only figuring this out now. This isn't about pointing fingers; it's about recognising that multi-market research is inherently messy, and sometimes the most valuable skill is knowing how to avoid all the pitfalls."
-		} ,
-
-		"speaker" : {
-			"name" : "Ramona Daniel (She/Her)" ,
-			"title" : "" ,
-			"bio" : "<p>Ramona Daniel is a cultural insights and research strategy consultant with 25+ years’ experience at leading global agencies including Ipsos, Kantar, and across the WPP network. She now works independently, helping organisations tackle complex multi-market research, decode cultural shifts through both quantitative methods and semiotics, and make sense of messy, cross-border data.</p><p>Her work bridges strategic thinking with hands-on delivery: from designing robust research programmes to turning data into compelling cultural narratives. She also equips teams to sharpen their skills in survey design, data analysis, storytelling, and the effective use of AI-driven tools.</p><p>She is available for freelance projects, advisory roles, in-company training, and interim insight leadership.</p>" ,
-			"image" : "ramona_daniel.jpg" ,
-			"links" : [
-
-				{
-					"name" : "Website" ,
-					"url" : "www.23insights.co.uk"
+					"url" : "https://bsky.app/profile/gecky.me"
 				} ,
 				{
-					"name" : "Linkedin" ,
-					"url" : "https://www.linkedin.com/in/ramonadaniel/"
+					"name" : "Website" ,
+					"url" : "http://gecky.me/"
 				}
 			]
 		}
 
-	},
+	} ,
+
+
+
 
 	{
+		"activity_type" : "talk" ,
+
 		"talk" : {
-			"time" : "TBD ET" ,
+			"time" : "13:55 ET" ,
 			"title" : "The Pitfalls of Prototyping Proof-of-Concepts in Prod" ,
 			"abstract" : "Sometimes, the best way to test a new piece of software is to run tests on a subset of real users in prod. You'll catch the weird edge cases that you hadn't considered during development and can iterate so that the next release is more resilient. But watch out! There is no such thing as a \"one time proof of concept\" in a production environment --- once you deploy, you have a production system. In this talk, I'll share an example of how I learned this lesson the hard way: a proof of concept experimentation engine that continued to haunt me ~18 months after its original deployment."
 		} ,
@@ -114,57 +260,13 @@
 
 	},
 
-	{
-		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "Tailoring satellite images" ,
-			"abstract" : "What will you do when you find a satellite image broken down into a collage of PNGs? You should become a tailor and stitch these images together. Then you should become a cartographer and georeference this stitched image on the map. That is what I did in a project where we got access to 13,680 PNG images. Bonus—these images had watermarks as well, which I had to remove without destroying the information in the image. This cleaning work helped me learn a lot about image processing and GIS. I'm eager to share my learnings!"
-		} ,
 
-		"speaker" : {
-			"name" : "Krishna ( thechaoticneuron ) (He/Him)" ,
-			"title" : "" ,
-			"bio" : "" ,
-			"image" : "krishna.jpg" ,
-			"links" : [
-				{
-					"name" : "Website" ,
-					"url" : "https://d-saikrishna.github.io/"
-				} ,
-				{
-					"name" : "LinkedIn" ,
-					"url" : "https://www.linkedin.com/in/saikrishnadammalapati/"
-				}
-			]
-		}
-
-	},
 
 	{
+		"activity_type" : "talk" ,
+
 		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "Churn Prediction: We thought it was hard but it was easy" ,
-			"abstract" : "Back in 2017, it was great to work on a project for a B2B SaaS company, trying to predict customer churn - the holy grail of all problems! The goal was to save the company a huge amount of money by stopping customers from cancelling, using machine learning to identify the customers to reach out to. After 6 months of in-the-weeds data work, the solution ended up being something we built in less than 60 minutes..."
-		} ,
-
-		"speaker" : {
-			"name" : "Matthew Brandt aka mattytwoshoes" ,
-			"title" : "" ,
-			"bio" : "<p>Matthew, a seasoned professional with over a decade of experience across 50+ companies, specialises in tracking, analytics, data stacks, and data analysis. Currently at Well, a Swiss Digital Health Platform, he focuses on smart decision-making, measuring outcomes and operationalising data. Matthew, aka the \"Decision Engineer\", excels in engaging stakeholders, drafting technical specifications, and collaborating with others to create insightful data products and reports. He's also a dedicated content creator, sharing his expertise through Twitch livestreams, webinars, events, and YouTube videos. Looking to break free from the dreaded question-answer analyst cycle? Join one of his upcoming live-learn cohorts for a powerful, hands-on, fun learning experience in a group: <a href=\"https://maven.com/mattytwoshoes/decision-science\">https://maven.com/mattytwoshoes/decision-science</a></p>" ,
-			"image" : "matthew_brandt.jpg" ,
-			"links" : [
-				{
-					"name" : "Website" ,
-					"url" : "https://mattytwo.shoes/"
-				}
-			]
-		}
-
-	},
-
-	{
-		"talk" : {
-			"time" : "TBD ET" ,
+			"time" : "14:20 ET" ,
 			"title" : "The Unreasonable Expectations of \"Data\"" ,
 			"abstract" : "One consequence of the LLM-geist is that your clients/bosses might think that any kind of dusty pile of unstructured data is now an immediately actionable goldmine of insights. The reality is that a S3 bucket filled with pdfs, slides, and random user tracking data, needs a lot of creative finagling to become useful in any way. So what does it look like to turn slush into data without just making up stories. What does it mean to analyze data when you're basically making up \"the data\" as you go?"
 		} ,
@@ -188,31 +290,48 @@
 
 	},
 
+
 	{
+		"activity_type" : "break" ,
 		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "From Chaos to Clarity: Data Journalism in the COVID era" ,
-			"abstract" : "When the pandemic hit, the demand for trustworthy, timely data skyrocketed, but the data itself was often inaccessible, inconsistent, and buried deep inside government dashboards. As a graphics journalist at Reuters, I found myself doing more than just making charts – we were scraping, stitching, cleaning, and sometimes manually copying data, just to get to a starting point. I’ll share the behind-the-scenes process of building some of the most-referenced COVID-19 trackers and data stories at Reuters, how we dealt with broken sources, shifting formats, massive datasets, and the surprising power of duct-tape workflows."
+			"time" : "14:45 ET" ,
+			"title" : "(break)"
+		} ,
+		"speaker" : {
+			"name" : "afternoon break"
+		}
+	} ,
+
+
+	{
+		"activity_type" : "talk" ,
+
+		"talk" : {
+			"time" : "15:15 ET" ,
+			"title" : "Bring Ambiguity to Impact, a guide for data people to lead through complexity" ,
+			"abstract" : "This talk shares a real-world case of measuring a product's actual impact and navigating the complex task of delivering the hard news to stakeholders."
 		} ,
 
 		"speaker" : {
-			"name" : "Prasanta Kumar Dutta (he/him)" ,
+			"name" : "Gabrielle Yang (She/Her)" ,
 			"title" : "" ,
-			"bio" : "<p>Prasanta Kumar Dutta is an Information Experience Designer from India, working at the intersection of design, coding, and journalism at Reuters. With a background in engineering and design, he crafts data-driven pieces that help narrate important stories visually. Several of his works have been recognised with numerous awards. He also teaches and talks about data visualisation, narrative cartography, and design at eminent institutes across India.</p>" ,
-			"image" : "prasanta_kumar_dutta.jpg" ,
+			"bio" : "<p>Gabrielle Yang is a Quantitative UX Researcher at Google, leading quant research for product-led growth and sales for Google Cloud. With over a decade of experience in data science at major companies like Microsoft and Walmart, she has often navigated the unique challenges faced by data professionals. Data experts are the essential messengers of product performance, but when the news isn't good, the messenger can get burned. In this talk, Gabrielle will share her hard-won strategies on how to deliver impactful but difficult insights, mitigate the risks of these tough conversations, and ensure data's voice is heard effectively to drive meaningful change.</p>" ,
+			"image" : "gabrielle_yang.png" ,
 			"links" : [
 				{
-					"name" : "Website" ,
-					"url" : "https://bit.ly/m/pkddapacific"
+					"name" : "Medium" ,
+					"url" : "https://medium.com/@gxyang13"
 				}
 			]
 		}
 
-	},
+	} ,
 
 	{
+		"activity_type" : "talk" ,
+
 		"talk" : {
-			"time" : "TBD ET" ,
+			"time" : "15:40 ET" ,
 			"title" : "Found in Translation: Building Metrics Stakeholders Need, Not What They Want" ,
 			"abstract" : "When stakeholders came to me with requirements for predicting customer churn with metrics like \"project virality\" and \"workspace freshness\", I could have spent months building exactly what they asked for. Instead, I dug into what they really wanted to understand and discovered we already had the data they needed. This is the story of how understanding the \"why?\" and using simple existing metrics beat building fancy new ones"
 		} ,
@@ -233,8 +352,10 @@
 	},
 
 	{
+		"activity_type" : "talk" ,
+
 		"talk" : {
-			"time" : "TBD ET" ,
+			"time" : "16:05 ET" ,
 			"title" : "The Data Science Ship of Theseus: is it still data science if AI is involved?" ,
 			"abstract" : "Will AI take my job? Data people aren't immune to worrying about this but it's more complex than a yes/no answer. In this talk, we'll walk through a real life data science project, including the juicy bits where things went wrong, see which parts AI could replace, and what that means for data as a career."
 		} ,
@@ -263,69 +384,39 @@
 	},
 
 	{
+		"activity_type" : "talk" ,
+
 		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "There Are No Data Emergencies*" ,
-			"abstract" : "There are no data emergencies — except sometimes there are, and it's necessary to embrace the chaos. Responding to quickly shifting external signals requires a different mindset and bag of tricks than careful, intentional execution of a carefully, intentionally outlined technical roadmap. Tales of hacking through the uncertainty, rapid prototyping, and rapid abandonment."
+			"time" : "16:30 ET" ,
+			"title" : "Lunchtime project to cabinet briefing" ,
+			"abstract" : "The acute covid response had lots of novel, rapidly changing data. My personal lunchtime and evenings project summarising NZ’s data had a weirdly high national profile. I have thoughts about why, and how to sustainably contributing usefully in times of crisis."
 		} ,
 
 		"speaker" : {
-			"name" : "Amanda Alvarez (She/Her)" ,
+			"name" : "David Hood (He/Him)" ,
 			"title" : "" ,
-			"bio" : "<p>Amanda is a general data nerd who has addressed challenges across an eclectic set of domains over a 20+ year career, bringing her technical expertise to both the private sector and public interest initiatives. Her work has informed policy decisions, supported advocacy efforts, advanced scientific research, and created solutions that improve outcomes across commercial, educational, and civic spaces.</p><p>When she's not hacking through data stuff, Amanda can be found fussing over her bees, eating tacos, adding to her collection of hobbies, and adventuring with her family in the mountains of Colorado.</p>" ,
-			"image" : "amanda_alvarez.png" ,
+			"bio" : "David Hood is often described as a New Zealand data analyst in media stories, but among data folk he would call himself a data generalist that spends a lot of his time teaching university staff and students software and workflows, along with having an unrelated profile as an advocate of open public data for informed citizenry." ,
+			"image" : "david_hood.png" ,
 			"links" : [
 				{
 					"name" : "Bluesky" ,
-					"url" : "https://bsky.app/profile/gecky.me"
-				} ,
-				{
-					"name" : "Website" ,
-					"url" : "http://gecky.me/"
+					"url" : "https://bsky.app/profile/thoughtfulnz.bsky.social"
 				}
 			]
 		}
 
-	} ,
+	},
+
 
 	{
+		"activity_type" : "remarks" ,
 		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "Bring Ambiguity to Impact, a guide for data people to lead through complexity" ,
-			"abstract" : "This talk shares a real-world case of measuring a product's actual impact and navigating the complex task of delivering the hard news to stakeholders."
+			"time" : "16:55 ET" ,
+			"title" : "Closing remarks"
 		} ,
-
 		"speaker" : {
-			"name" : "Gabrielle Yang (She/Her)" ,
-			"title" : "" ,
-			"bio" : "<p>Gabrielle Yang is a Quantitative UX Researcher at Google, leading quant research for product-led growth and sales for Google Cloud. With over a decade of experience in data science at major companies like Microsoft and Walmart, she has often navigated the unique challenges faced by data professionals. Data experts are the essential messengers of product performance, but when the news isn't good, the messenger can get burned. In this talk, Gabrielle will share her hard-won strategies on how to deliver impactful but difficult insights, mitigate the risks of these tough conversations, and ensure data's voice is heard effectively to drive meaningful change.</p>" ,
-			"image" : "gabrielle_yang.png" ,
-			"links" : [
-				{
-					"name" : "Medium" ,
-					"url" : "https://medium.com/@gxyang13"
-				}
-			]
+			"name" : "mc-closing-remarks"
 		}
-
-	} ,
-
-	{
-		"talk" : {
-			"time" : "TBD ET" ,
-			"title" : "How I Made dbt Builds 6x Faster (Then Rolled It Back)" ,
-			"abstract" : "When I joined my current team, dbt builds took two hours. That was a painful bottleneck for CI and deploys. I built a sampling framework that preserved referential integrity and cut builds down to minutes. It worked until it didn't. This talk is about that win, the weird failure cases that followed, and the eventual choice to roll it all back. A story of engineering tradeoffs, team confusion, and learning when to walk away from a \"good\" idea."
-		} ,
-
-		"speaker" : {
-			"name" : "Paul Rosenzweig (He/Him)" ,
-			"title" : "" ,
-			"bio" : "" ,
-			"image" : "paul_rosenzweig.jpg" ,
-			"links" : [
-			]
-		}
-
 	}
 
 ]
