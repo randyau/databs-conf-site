@@ -7,10 +7,10 @@ title: "Schedule of talks"
 	Who's saying what, and when.
 </p>
 
-<div class="mt-8 text-gray-600">
+<div class="text-gray-600">
 
 	<!-- schedule -->
-	<div class="flow-root mt-8">
+	<div class="flow-root">
 
 		<ul class="-mb-8" role="list">
 
@@ -19,7 +19,12 @@ title: "Schedule of talks"
 			<li>
 				<div class="relative pb-2">
 					<div class="relative flex space-x-3">
-						<div class="flex min-w-0 flex-1 justify-between space-x-4 pt-1.5">
+						<div class="flex min-w-0 flex-1 space-x-4 pt-1.5">
+
+
+							<div class="whitespace-nowrap text-gray-600 font-semibold">
+								<p>{{ talk_record.talk.time }}</p>
+							</div>
 
 							<div>
 
@@ -49,9 +54,6 @@ title: "Schedule of talks"
 
 							</div>
 
-							<div class="whitespace-nowrap text-gray-600">
-								<p>{{ talk_record.talk.time }}</p>
-							</div>
 
 
 						</div>
