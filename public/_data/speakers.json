@@ -139,7 +139,7 @@
 		"speaker" : {
 			"name" : "Paul Rosenzweig (He/Him)" ,
 			"title" : "" ,
-			"bio" : "" ,
+			"bio" : "Paul Rosenzweig is a data engineer at Mercury. He works on the data platform, which mostly means arguing about dbt standards, babysitting flaky tests, and making sure BI tools don’t spontaneously combust." ,
 			"image" : "paul_rosenzweig.jpg" ,
 			"links" : [
 			]
