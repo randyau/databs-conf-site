@@ -240,7 +240,7 @@
 		"speaker" : {
 			"name" : "Mark Rieke (He/Him)" ,
 			"title" : "" ,
-			"bio" : "" ,
+			"bio" : "Mark Rieke is a data scientist, Bayesian statistician, ML engineer, or whatever the current flavor-of-the-day title might be. He works in the games industry building models and systems for optimizing revenue, analyzing experiments, or improving the player experience. In his free time, Mark builds statistical models for forecasting elections from survey data (polls) and sometimes writes freelance articles about the results (you can find his work at the Data Diary and Strength In Numbers). He is a certified pizza afficianado and the proud owner of two dogs, one cat, and far too many houseplants." ,
 			"image" : "mark_rieke.png" ,
 			"links" : [
 				{
