@@ -4,12 +4,107 @@ title: "Schedule of talks"
 ---
 
 <p class="mt-6 text-lg/8 text-gray-600">
-	Who's saying what, and when.
+	Who said what, and when.
 </p>
+
+<p>
+	You can watch the whole event through our
+	<a href="{{ local_config.links_offsite.youtube_playlist }}" target="_blank">YouTube playlist</a>
+	or review the talk descriptions here.
+</p>
+
 
 <div class="text-gray-600">
 
-	<!-- schedule -->
+	<!-- preshow -->
+
+	<p class="text-xl font-bold">Preshow</p>
+
+	<div>
+		<p>We had two talks that we couldn't fit into the schedule, but the speakers pre-recorded their talk for us to share before the main event:</p>
+
+		<ul class="list-disc ml-6" style="display: table;" role="list">
+			<li>
+				<a href="https://www.youtube.com/watch?v=0qelRb22ris&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=1" target="_blank">
+					Wizard without the Curtain
+				</a>
+				by Krysta Chauncey, Ph.D. (Action Potential Acumen, LLC)
+			</li>
+
+			<li>
+				<a href="https://www.youtube.com/watch?v=Qbl76p_sUkQ&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=2" target="_blank">
+					Scraping, Cleaning, and Embracing the Mess: Lessons from analysing court data in India
+				</a>
+				by Anindita Pattanayak (Enfold Proactive Health Trust)
+			</li>
+
+		</ul>
+
+	</div>
+
+	<!-- live event -->
+
+	<p class="text-xl font-bold">The live event</p>
+
+
+	<div class="flow-root">
+
+		<ul class="-mb-8" role="list">
+
+			{% for talk_record in speakers %}
+
+			<li>
+				<div class="relative pb-2">
+					<div class="relative flex space-x-3">
+						<div class="flex min-w-0 flex-1 space-x-4">
+
+
+							<div class="whitespace-nowrap text-gray-600 font-semibold">
+								<p>{{ talk_record.talk.time }}</p>
+							</div>
+
+							<div>
+
+								{% if talk_record.activity_type == "talk" %}
+
+								<p>
+									<a class="font-bold" href="/talks/{{ talk_record.speaker.name | slugify }}/">{{ talk_record.talk.title }}</a>
+									<br/>
+									<span class="text-gray-600">
+											{{ talk_record.speaker.name}}
+										</span>
+								</p>
+
+								{% elsif talk_record.activity_type == "break" %}
+
+								<p>
+									(break)
+								</p>
+
+								{% elsif talk_record.activity_type == "remarks" %}
+
+								<p>
+									{{ talk_record.talk.title }}
+								</p>
+
+								{% endif %}
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+
+
+			{% endfor %}
+
+		</ul>
+
+	</div>
+
+
+	{% comment %}
 	<div class="flow-root">
 
 		<ul class="-mb-8" role="list">
@@ -67,5 +162,6 @@ title: "Schedule of talks"
 		</ul>
 
 	</div>
+	{% endcomment %}
 
 </div>
