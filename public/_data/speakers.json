@@ -5,21 +5,35 @@
 		"talk" : {
 			"time" : "10:00 ET" ,
 			"title" : "Event opens"
-		} ,
-		"speaker" : {
-			"name" : "mc-event-opens"
 		}
 	} ,
 
 	{
-		"activity_type" : "remarks" ,
+		"activity_type" : "talk" ,
 		"talk" : {
 			"time" : "10:10 ET" ,
-			"title" : "Opening Remarks"
+			"title" : "Opening Remarks: Making space is important",
+			"abstract" : "",
+			"youtube_link" : "https://www.youtube.com/watch?v=5JCIJBJ8dhA"
 		} ,
+
 		"speaker" : {
-			"name" : "mc-opening-remarks"
+			"name" : "Randy Au" ,
+			"title" : "Ubiquitous MC" ,
+			"bio" : "Randy is technically a Quantitative UX Researcher, generalist data nerd, terminally online hobby collector, and steady newsletter writer. He also organized this conference entirely because it sounded like a good idea at the time. What is sleep." ,
+			"image" : "randy_au.png",
+			"links" : [
+				{
+					"name" : "Bluesky" ,
+					"target" : "https://bsky.app/profile/randyau.com"
+				},
+				{
+					"name" : "Newsletter" ,
+					"target" : "https://www.counting-stuff.com"
+				}
+			]
 		}
+
 	} ,
 
 	{
@@ -28,7 +42,8 @@
 		"talk" : {
 			"time" : "10:20 ET" ,
 			"title" : "Tailoring satellite images" ,
-			"abstract" : "What will you do when you find a satellite image broken down into a collage of PNGs? You should become a tailor and stitch these images together. Then you should become a cartographer and georeference this stitched image on the map. That is what I did in a project where we got access to 13,680 PNG images. Bonus—these images had watermarks as well, which I had to remove without destroying the information in the image. This cleaning work helped me learn a lot about image processing and GIS. I'm eager to share my learnings!"
+			"abstract" : "What will you do when you find a satellite image broken down into a collage of PNGs? You should become a tailor and stitch these images together. Then you should become a cartographer and georeference this stitched image on the map. That is what I did in a project where we got access to 13,680 PNG images. Bonus—these images had watermarks as well, which I had to remove without destroying the information in the image. This cleaning work helped me learn a lot about image processing and GIS. I'm eager to share my learnings!",
+			"youtube_link" : "https://www.youtube.com/watch?v=UyFAs7WEPWI&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=4&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -56,7 +71,8 @@
 		"talk" : {
 			"time" : "10:45 ET" ,
 			"title" : "Churn Prediction: We thought it was hard but it was easy" ,
-			"abstract" : "Back in 2017, it was great to work on a project for a B2B SaaS company, trying to predict customer churn - the holy grail of all problems! The goal was to save the company a huge amount of money by stopping customers from cancelling, using machine learning to identify the customers to reach out to. After 6 months of in-the-weeds data work, the solution ended up being something we built in less than 60 minutes..."
+			"abstract" : "Back in 2017, it was great to work on a project for a B2B SaaS company, trying to predict customer churn - the holy grail of all problems! The goal was to save the company a huge amount of money by stopping customers from cancelling, using machine learning to identify the customers to reach out to. After 6 months of in-the-weeds data work, the solution ended up being something we built in less than 60 minutes...",
+			"youtube_link" : "https://www.youtube.com/watch?v=i9DBCcJ3PzY&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=5&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -80,7 +96,8 @@
 		"talk" : {
 			"time" : "11:10 ET" ,
 			"title" : "10 Red Flags That Tell You Your Multi-Market Research Data Went Sideways (And You're Only Finding Out Now)" ,
-			"abstract" : "We've all been there. Staring at survey data that looks technically correct but feels fundamentally wrong. This is the session for people who've ever had to explain why the data from three countries is completely unusable, and you're only figuring this out now. This isn't about pointing fingers; it's about recognising that multi-market research is inherently messy, and sometimes the most valuable skill is knowing how to avoid all the pitfalls."
+			"abstract" : "We've all been there. Staring at survey data that looks technically correct but feels fundamentally wrong. This is the session for people who've ever had to explain why the data from three countries is completely unusable, and you're only figuring this out now. This isn't about pointing fingers; it's about recognising that multi-market research is inherently messy, and sometimes the most valuable skill is knowing how to avoid all the pitfalls.",
+			"youtube_link" : "https://www.youtube.com/watch?v=pSA6y3Ceb7c&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=6&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -109,7 +126,8 @@
 		"talk" : {
 			"time" : "11:35 ET" ,
 			"title" : "From Chaos to Clarity: Data Journalism in the COVID era" ,
-			"abstract" : "When the pandemic hit, the demand for trustworthy, timely data skyrocketed, but the data itself was often inaccessible, inconsistent, and buried deep inside government dashboards. As a graphics journalist at Reuters, I found myself doing more than just making charts – we were scraping, stitching, cleaning, and sometimes manually copying data, just to get to a starting point. I’ll share the behind-the-scenes process of building some of the most-referenced COVID-19 trackers and data stories at Reuters, how we dealt with broken sources, shifting formats, massive datasets, and the surprising power of duct-tape workflows."
+			"abstract" : "When the pandemic hit, the demand for trustworthy, timely data skyrocketed, but the data itself was often inaccessible, inconsistent, and buried deep inside government dashboards. As a graphics journalist at Reuters, I found myself doing more than just making charts – we were scraping, stitching, cleaning, and sometimes manually copying data, just to get to a starting point. I’ll share the behind-the-scenes process of building some of the most-referenced COVID-19 trackers and data stories at Reuters, how we dealt with broken sources, shifting formats, massive datasets, and the surprising power of duct-tape workflows." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=FI2d_Cb3VV0&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=7&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -133,7 +151,8 @@
 		"talk" : {
 			"time" : "12:00 ET" ,
 			"title" : "How I Made dbt Builds 6x Faster (Then Rolled It Back)" ,
-			"abstract" : "When I joined my current team, dbt builds took two hours. That was a painful bottleneck for CI and deploys. I built a sampling framework that preserved referential integrity and cut builds down to minutes. It worked until it didn't. This talk is about that win, the weird failure cases that followed, and the eventual choice to roll it all back. A story of engineering tradeoffs, team confusion, and learning when to walk away from a \"good\" idea."
+			"abstract" : "When I joined my current team, dbt builds took two hours. That was a painful bottleneck for CI and deploys. I built a sampling framework that preserved referential integrity and cut builds down to minutes. It worked until it didn't. This talk is about that win, the weird failure cases that followed, and the eventual choice to roll it all back. A story of engineering tradeoffs, team confusion, and learning when to walk away from a \"good\" idea." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=KbLVSlBCy4M&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=8&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -166,7 +185,8 @@
 		"talk" : {
 			"time" : "13:05 ET" ,
 			"title" : "(Not Quite) Instant Awesomeness: corporate genAI adoption gone wrong, and how to put it back on-track" ,
-			"abstract" : "Executives often see genAI as an instant awesome switch for their company.  Their desire to use this technology overshoots its capabilities, leading to stalled projects and high-profile mishaps.  Why does this keep happening?  Why don't the execs see the danger signs? And what can you, the data practitioner, do about it? Using real-world genAI goofs, I'll share how to guide your stakeholders to better decisions and more successful rollouts.  Who knows? You might talk them out of using AI altogether."
+			"abstract" : "Executives often see genAI as an instant awesome switch for their company.  Their desire to use this technology overshoots its capabilities, leading to stalled projects and high-profile mishaps.  Why does this keep happening?  Why don't the execs see the danger signs? And what can you, the data practitioner, do about it? Using real-world genAI goofs, I'll share how to guide your stakeholders to better decisions and more successful rollouts.  Who knows? You might talk them out of using AI altogether." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=b9pGlCZvKWg&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=9&pp=iAQB0gcJCfsJAYcqIYzv"
 		} ,
 
 		"speaker" : {
@@ -203,7 +223,8 @@
 		"talk" : {
 			"time" : "13:30 ET" ,
 			"title" : "There Are No Data Emergencies*" ,
-			"abstract" : "There are no data emergencies — except sometimes there are, and it's necessary to embrace the chaos. Responding to quickly shifting external signals requires a different mindset and bag of tricks than careful, intentional execution of a carefully, intentionally outlined technical roadmap. Tales of hacking through the uncertainty, rapid prototyping, and rapid abandonment."
+			"abstract" : "There are no data emergencies — except sometimes there are, and it's necessary to embrace the chaos. Responding to quickly shifting external signals requires a different mindset and bag of tricks than careful, intentional execution of a carefully, intentionally outlined technical roadmap. Tales of hacking through the uncertainty, rapid prototyping, and rapid abandonment." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=kxShRd5avbY&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=10&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -234,7 +255,8 @@
 		"talk" : {
 			"time" : "13:55 ET" ,
 			"title" : "The Pitfalls of Prototyping Proof-of-Concepts in Prod" ,
-			"abstract" : "Sometimes, the best way to test a new piece of software is to run tests on a subset of real users in prod. You'll catch the weird edge cases that you hadn't considered during development and can iterate so that the next release is more resilient. But watch out! There is no such thing as a \"one time proof of concept\" in a production environment --- once you deploy, you have a production system. In this talk, I'll share an example of how I learned this lesson the hard way: a proof of concept experimentation engine that continued to haunt me ~18 months after its original deployment."
+			"abstract" : "Sometimes, the best way to test a new piece of software is to run tests on a subset of real users in prod. You'll catch the weird edge cases that you hadn't considered during development and can iterate so that the next release is more resilient. But watch out! There is no such thing as a \"one time proof of concept\" in a production environment --- once you deploy, you have a production system. In this talk, I'll share an example of how I learned this lesson the hard way: a proof of concept experimentation engine that continued to haunt me ~18 months after its original deployment." ,
+			"youtube_link" : ""
 		} ,
 
 		"speaker" : {
@@ -268,7 +290,8 @@
 		"talk" : {
 			"time" : "14:20 ET" ,
 			"title" : "The Unreasonable Expectations of \"Data\"" ,
-			"abstract" : "One consequence of the LLM-geist is that your clients/bosses might think that any kind of dusty pile of unstructured data is now an immediately actionable goldmine of insights. The reality is that a S3 bucket filled with pdfs, slides, and random user tracking data, needs a lot of creative finagling to become useful in any way. So what does it look like to turn slush into data without just making up stories. What does it mean to analyze data when you're basically making up \"the data\" as you go?"
+			"abstract" : "One consequence of the LLM-geist is that your clients/bosses might think that any kind of dusty pile of unstructured data is now an immediately actionable goldmine of insights. The reality is that a S3 bucket filled with pdfs, slides, and random user tracking data, needs a lot of creative finagling to become useful in any way. So what does it look like to turn slush into data without just making up stories. What does it mean to analyze data when you're basically making up \"the data\" as you go?" ,
+			"youtube_link" : "https://www.youtube.com/watch?v=yo8kTg57jPI&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=11&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -309,7 +332,8 @@
 		"talk" : {
 			"time" : "15:15 ET" ,
 			"title" : "Bring Ambiguity to Impact, a guide for data people to lead through complexity" ,
-			"abstract" : "This talk shares a real-world case of measuring a product's actual impact and navigating the complex task of delivering the hard news to stakeholders."
+			"abstract" : "This talk shares a real-world case of measuring a product's actual impact and navigating the complex task of delivering the hard news to stakeholders." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=SDb7mPJl3F8&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=12&pp=iAQB0gcJCfsJAYcqIYzv"
 		} ,
 
 		"speaker" : {
@@ -333,7 +357,8 @@
 		"talk" : {
 			"time" : "15:40 ET" ,
 			"title" : "Found in Translation: Building Metrics Stakeholders Need, Not What They Want" ,
-			"abstract" : "When stakeholders came to me with requirements for predicting customer churn with metrics like \"project virality\" and \"workspace freshness\", I could have spent months building exactly what they asked for. Instead, I dug into what they really wanted to understand and discovered we already had the data they needed. This is the story of how understanding the \"why?\" and using simple existing metrics beat building fancy new ones"
+			"abstract" : "When stakeholders came to me with requirements for predicting customer churn with metrics like \"project virality\" and \"workspace freshness\", I could have spent months building exactly what they asked for. Instead, I dug into what they really wanted to understand and discovered we already had the data they needed. This is the story of how understanding the \"why?\" and using simple existing metrics beat building fancy new ones" ,
+			"youtube_link" : "https://www.youtube.com/watch?v=N71Xw_q4I6E&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=13&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -357,7 +382,8 @@
 		"talk" : {
 			"time" : "16:05 ET" ,
 			"title" : "The Data Science Ship of Theseus: is it still data science if AI is involved?" ,
-			"abstract" : "Will AI take my job? Data people aren't immune to worrying about this but it's more complex than a yes/no answer. In this talk, we'll walk through a real life data science project, including the juicy bits where things went wrong, see which parts AI could replace, and what that means for data as a career."
+			"abstract" : "Will AI take my job? Data people aren't immune to worrying about this but it's more complex than a yes/no answer. In this talk, we'll walk through a real life data science project, including the juicy bits where things went wrong, see which parts AI could replace, and what that means for data as a career." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=uCR1P6JgP8A&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=14&pp=iAQB"
 		} ,
 
 		"speaker" : {
@@ -389,7 +415,8 @@
 		"talk" : {
 			"time" : "16:30 ET" ,
 			"title" : "Lunchtime project to cabinet briefing" ,
-			"abstract" : "The acute covid response had lots of novel, rapidly changing data. My personal lunchtime and evenings project summarising NZ’s data had a weirdly high national profile. I have thoughts about why, and how to sustainably contributing usefully in times of crisis."
+			"abstract" : "The acute covid response had lots of novel, rapidly changing data. My personal lunchtime and evenings project summarising NZ’s data had a weirdly high national profile. I have thoughts about why, and how to sustainably contributing usefully in times of crisis." ,
+			"youtube_link" : "https://www.youtube.com/watch?v=vIITl4NVDeU&list=PLw0P2PdCUcCAdn3nefl5LcUI9-9gpisNa&index=15&pp=iAQB"
 		} ,
 
 		"speaker" : {
