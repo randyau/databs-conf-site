@@ -19,6 +19,20 @@ eleventyComputed:
 		{{ talk_meta.talk.abstract }}
 	</p>
 
+	<div>
+		<iframe
+			class="mt-4 w-full h-full aspect-video"
+			src="{{  talk_meta.talk.youtube_link }}"
+			title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+			>
+		</iframe>
+	</div>
+
+
 	<p class="text-center">
 		<i class="fa-solid fa-ellipsis"></i>
 	</p>
